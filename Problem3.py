@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Load the dataset
+# First, we will load the uscrime.csv dataset
 df = pd.read_csv('uscrime.csv', index_col=0)
 
 # Streamlit App
